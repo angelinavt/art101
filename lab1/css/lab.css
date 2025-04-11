@@ -17,12 +17,12 @@
     font-family: Helvetica;
     text-indent: 20px;
   }
-  
+
   #content {
     background-color: olivedrab;
-    padding: 10px;
-    font-size: 25px;
+    padding: 5px;
+    font-size: 15px;
     border: dashed 1px black;
-    width: 500px;
+    width: 1000px;
     min-height: 300px;
   }
