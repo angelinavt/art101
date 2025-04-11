@@ -15,11 +15,13 @@
   }
   p {
     font-family: Georgia;
+    color: purple;
     text-indent: 20px;
   }
 
   #content {
     background-color: olivedrab;
+    color: darkred;
     padding: 5px;
     font-size: 15px;
     border: dashed 1px black;
