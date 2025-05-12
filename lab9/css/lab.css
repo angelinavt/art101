@@ -7,3 +7,16 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  .special {
+    background-color: lavender;
+    border: dotted 50px rgb(174, 81, 165);
+    color: pink;
+    font-weight: bold;
+}
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+</head>
