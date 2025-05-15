@@ -7,7 +7,7 @@
 // Functions
 
 function generateRandomText() {
-  const text = "yah.";
+  const text = "This is a longer sentence that gives us more random words to play with.";
   const min = 3;
   const max = 100;
   const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
