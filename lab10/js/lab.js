@@ -7,7 +7,7 @@
 // Functions
 
 function generateRandomText() {
-  const text = "say something.";
+  const text = "yah.";
   const min = 3;
   const max = 100;
   const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
@@ -25,6 +25,7 @@ const newText = generateRandomText();
 
 // append a new div to our output div
 $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
