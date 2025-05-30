@@ -6,24 +6,19 @@
 
 // Functions
 
+// Make sure everything runs after the page is fully loaded
+
 // add button to challenge section
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
 // add a click listener to the challenge button
 $("#button-challenge").click(function(){
- 
-  // now add (or subtract) the "special" class to the section
-  $("#challenge").toggleClass("special");
+    // now add (or subtract) the "special" class to the section
+    $(this).toggleClass("special");
 });
 
-
-<head>
-    <link rel="stylesheet" type="text/css" href="../css/site.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/lab.js" DEFER></script>
-</head>
-
+  // now add (or subtract) the "special" class to the section
+  $("#button-challenge").toggleClass("special");
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
   // some code here

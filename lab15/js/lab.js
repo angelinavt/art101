@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 15 AJAX
+// Author: Angelina Todorov
+// Date:6/1/25
 
 // Constants
 
